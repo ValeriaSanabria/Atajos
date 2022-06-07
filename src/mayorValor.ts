@@ -6,6 +6,8 @@ function mayorValor(entrada: number []) {
     if (total > 1) {
       for( let i = 0; i < total; i++) {
         if(entrada[i] > mayor)
+        //si quiero saber el menor valor solo
+        //debo cambiar el signo < 
         mayor = entrada[i];
       }
     }
